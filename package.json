@@ -1,0 +1,21 @@
+{
+  "name": "screenrights-redesign",
+  "version": "1.0.0",
+  "description": "Modern redesign of screenrights.org homepage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx serve public -p 3000",
+    "build": "echo 'No build required - static site'",
+    "preview": "npx serve public"
+  },
+  "keywords": [
+    "screenrights",
+    "copyright",
+    "royalties"
+  ],
+  "author": "Dennis Khor",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
